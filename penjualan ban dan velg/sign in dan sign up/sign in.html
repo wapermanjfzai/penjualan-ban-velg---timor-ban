@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="toko.css"> <!-- Tautkan file CSS untuk dark mode / light mode -->
+</head>
+
+<body class="light-mode">
+    <!-- Tambahkan kelas untuk mode gelap / terang -->
+
+    <h1 class="judul">Timor Ban</h1>
+    <h2 class="subjudul">WHEELS.TYRES.ETC</h2>
+
+    <!-- Tambahkan switch mode -->
+    <div class="mode-switch">
+        <input type="checkbox" id="mode-toggle" onclick="toggleDarkMode()">
+        <label for="mode-toggle" class="slider"></label>
+    </div>
+
+
+    <div class="login-box">
+        <h2 style="color: black">Sign In</h2>
+        <form>
+            <div class="inputBox">
+                <input type="text" name="username" required="" placeholder="Username">
+            </div>
+            <div class="inputBox">
+                <input type="password" name="password" id="password" required="" placeholder="Password">
+                <span class="toggle-password" onclick="togglePasswordVisibility()"></span>
+            </div>
+            <div class="forget-password">
+                <a href="#">Forget Password?</a>
+            </div>
+            <button type="button" onclick="register()" class="register-btn login-box-signup">Sign Up</button>
+        </form>
+        <button type="button" onclick="signIn()" class="login-box-signin" id="signInButton">Sign In</button>
+
+        <div style="clear:both;"></div>
+    </div>
+
+
+    <script>
+        // Fungsi untuk mengarahkan pengguna ke halaman pendaftaran saat tombol "Sign Up" ditekan
+        function register() {
+            window.location.href = "http://127.0.0.1:5500/sign%20in%20dan%20sign%20up/sign%20up.html"; // 
+
+        }
+        function signIn() {
+            window.location.href = "http://127.0.0.1:5500/beranda/beranda.html";
+        }
+
+        // Fungsi untuk menampilkan/menyembunyikan password
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+
+        // Fungsi untuk mengaktifkan dark mode / light mode
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+            body.classList.toggle("light-mode");
+        }
+    </script>
+    <script src="switch.js"></script> <!-- Tautkan file JavaScript -->
+</body>
+
+</html>

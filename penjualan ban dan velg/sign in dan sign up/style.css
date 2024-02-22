@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #4F6F52;
+}
+
+.judul {
+    text-align: center;
+    font-size: 72px;
+    background: linear-gradient(276.27deg, #FF0000 0%, #FFFFFF 100%);
+
+
+    background-clip: text; /* Menerapkan clip latar belakang ke teks */
+    -webkit-text-fill-color: transparent; /* Menerapkan warna teks transparan */
+    position: absolute;
+
+    top: 6%; /* Pusatkan secara vertikal ke tengah */
+    left: 50%; /* Pusatkan secara horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Pusatkan elemen ke tengah */
+}
+
+.subjudul {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 50px;
+    position: absolute;
+    top: 14%; /* Sesuaikan dengan kebutuhan */
+    left: 50%; /* Pusatkan secara horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Pusatkan elemen ke tengah */
+}
+
+.login-box {
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FF0000;
+    text-align: center;
+    border-radius: 15px;
+    color: #000;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.eye-icon {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #942017;
+    color: #fff;
+}

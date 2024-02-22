@@ -1,0 +1,124 @@
+.detail-produk-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.detail-produk-detail-produk {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.detail-produk-group52 {
+  top: 0px;
+  left: 502px;
+  width: 435.3569030761719px;
+  height: 155.95529174804688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.detail-produk-group46 {
+  top: 0px;
+  left: 0px;
+  width: 435.3569030761719px;
+  height: 155.95529174804688px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.detail-produk-text {
+  top: 97.9552993774414px;
+  left: 63.48954772949219px;
+  color: rgba(79, 111, 82, 1);
+  height: auto;
+  position: absolute;
+  font-size: 29.023794174194336px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lemonada;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.detail-produk-frame26 {
+  top: 891px;
+  left: 1315px;
+  width: 125px;
+  height: 133px;
+  position: absolute;
+}
+.detail-produk-frameiconnavarrowleft {
+  top: 25px;
+  left: 33px;
+  width: 44px;
+  height: 48.88888931274414px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.detail-produk-vector {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 49px;
+  position: absolute;
+}
+.detail-produk-group57 {
+  top: -251px;
+  left: 32.87548828125px;
+  width: 1606px;
+  height: 1549px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.detail-produk-whats-app-image20240209at17212 {
+  top: 454px;
+  left: 0px;
+  width: 641px;
+  height: 627px;
+  position: absolute;
+}
+.detail-produk-text02 {
+  top: 437px;
+  left: 708px;
+  color: rgb(0, 0, 0);
+  width: 708px;
+  height: auto;
+  position: absolute;
+  font-size: 34px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Lemonada";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.detail-produk-rectangle21 {
+  top: 1549px;
+  left: 0.12451171875px;
+  width: 641px;
+  height: 1126px;
+  position: absolute;
+}
+.detail-produk-rectangle20 {
+  top: 0px;
+  left: 0.12451171875px;
+  width: 641px;
+  height: 1074px;
+  position: absolute;
+}

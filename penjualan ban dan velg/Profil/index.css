@@ -1,0 +1,242 @@
+.desktop2-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.desktop2-desktop2 {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop2-image1 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 351px;
+  position: absolute;
+}
+.desktop2-ellipse1 {
+  top: 257.89794921875px;
+  left: 625px;
+  width: 190px;
+  height: 186px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 7.480315208435059px;
+}
+.desktop2-text {
+  top: 226px;
+  left: 674.9267578125px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 125.25385284423828px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Lemonada;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2-group27 {
+  top: 512px;
+  left: 119px;
+  width: 506px;
+  height: 91.57669067382812px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop2-rectangle31 {
+  top: 0px;
+  left: 0px;
+  width: 503px;
+  height: 92px;
+  position: absolute;
+  border-radius: 26.802934646606445px;
+}
+.desktop2-biperson {
+  top: 8.934307098388672px;
+  left: 24.569286346435547px;
+  width: 67px;
+  height: 67px;
+  position: absolute;
+}
+.desktop2-text01 {
+  top: 21.73004722595215px;
+  left: 96.2331314086914px;
+  color: rgba(65, 65, 65, 1);
+  width: 410px;
+  height: auto;
+  position: absolute;
+  font-size: 35.737247467041016px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lemonada;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2-group26 {
+  top: 512px;
+  left: 815px;
+  width: 506px;
+  height: 91.58000183105469px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop2-text03 {
+  top: 23px;
+  left: 94px;
+  color: rgba(65, 65, 65, 1);
+  width: 412px;
+  height: auto;
+  position: absolute;
+  font-size: 38.243988037109375px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lemonada;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2-fluentcall16regular {
+  top: 15.635782241821289px;
+  left: 33.7333984375px;
+  width: 61px;
+  height: 60px;
+  position: absolute;
+}
+.desktop2-group28 {
+  top: 707px;
+  left: 119px;
+  width: 506px;
+  height: 91.58000183105469px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop2-ionmailoutline {
+  top: 15.635782241821289px;
+  left: 29.235595703125px;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+}
+.desktop2-text05 {
+  top: 20.102876663208008px;
+  left: 96.7021484375px;
+  color: rgba(65, 65, 65, 1);
+  width: 398px;
+  height: auto;
+  position: absolute;
+  font-size: 31.707317352294922px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Lemonada;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2-group29 {
+  top: 707px;
+  left: 815px;
+  width: 506px;
+  height: 92.2044448852539px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop2-text07 {
+  top: 20.239938735961914px;
+  left: 96.70210266113281px;
+  color: rgba(65, 65, 65, 1);
+  width: 398px;
+  height: auto;
+  position: absolute;
+  font-size: 24.987653732299805px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lemonada;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2-cilbirthdaycake {
+  top: 10.932098388671875px;
+  left: 23.425926208496094px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+.desktop2-group24 {
+  top: 937px;
+  left: 0px;
+  width: 219.45651245117188px;
+  height: 87px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop2-iconamoonexitlight {
+  top: 0px;
+  left: 87px;
+  width: 87px;
+  height: 87px;
+  position: absolute;
+}
+.desktop2-text09 {
+  top: 15px;
+  color: rgb(0, 0, 0);
+  right: -70px;
+  height: auto;
+  position: absolute;
+  font-size: 29.059px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Lemonada";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop2-frameiconnavarrowleft {
+  top: 21px;
+  left: 21px;
+  width: 55px;
+  height: 61.11111068725586px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.desktop2-vector {
+  top: 0px;
+  left: 0px;
+  width: 55px;
+  height: 61px;
+  position: absolute;
+}

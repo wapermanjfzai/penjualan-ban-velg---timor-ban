@@ -1,0 +1,117 @@
+/* Tambahkan atau perbarui CSS Anda di sini */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000000;
+}
+.login-box {
+    width: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FF0000;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff; /* Warna teks disesuaikan untuk kontras dengan latar */
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%; /* Lebar penuh dari .login-box */
+    padding: 10px;
+    margin: 10px 0 20px; /* Margin untuk spasi antar elemen */
+    border: 1px solid #ddd; /* Border tipis untuk menonjolkan input pada latar belakang putih */
+    background: #ffffff; /* Latar belakang input diubah menjadi putih */
+    border-radius: 20px;
+    color: #000000; /* Warna teks hitam untuk kontras yang baik */
+    box-sizing: border-box; /* Menghindari penambahan lebar total karena padding */
+    position: relative; /* Gunakan posisi relatif */
+}
+
+.login-box input[type="password"] {
+    padding-right: 30px; /* Mengatur ruang di sebelah kanan untuk tombol "Show" */
+}
+
+.login-box .toggle-password {
+    position: absolute; /* Gunakan posisi absolut */
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #000000
+}
+
+.login-box input[type="submit"],
+/* CSS untuk kotak sign in */
+/* CSS untuk kotak sign in */
+.login-box-signin {
+    width: 48%; /* Sesuaikan lebar dengan input lainnya */
+    padding: 10px;
+    background: #ffffff; /* Background kotak sign in */
+    color: #000000;
+    font-size: 18px;
+    border-radius: 50px;
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+    float: left; /* Tambahkan float kiri */
+    margin-right: 2%; /* Tambahkan margin kanan agar ada jarak antara kedua kotak */
+}
+
+/* CSS untuk kotak sign up */
+.login-box-signup {
+    width: 48%; /* Sesuaikan lebar dengan input lainnya */
+    padding: 10px;
+    background: #ffffff; /* Background kotak sign up */
+    color: #000000;
+    font-size: 18px;
+    border-radius: 50px;
+    box-sizing: border-box; /* Pastikan padding tidak menambah lebar total */
+    float: right; /* Tambahkan float kanan */
+    margin-left: 2%; /* Tambahkan margin kiri agar ada jarak antara kedua kotak */
+}
+
+
+.register-btn {
+    float: left; /* Tambahkan float kiri */
+}
+
+.judul {
+    text-align: center;
+    font-size: 72px;
+    background: linear-gradient(276.27deg, #FF0000 0%, #FFFFFF 100%);
+    background-clip: text; /* Menerapkan clip latar belakang ke teks */
+    -webkit-text-fill-color: transparent; /* Menerapkan warna teks transparan */
+    position: absolute;
+    top: 6%; /* Pusatkan secara vertikal ke tengah */
+    left: 50%; /* Pusatkan secara horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Pusatkan elemen ke tengah */
+}
+
+.subjudul {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 50px;
+    position: absolute;
+    top: 14%; /* Sesuaikan dengan kebutuhan */
+    left: 50%; /* Pusatkan secara horizontal ke tengah */
+    transform: translate(-50%, -50%); /* Pusatkan elemen ke tengah */
+}
+
+.forget-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forget-password a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.forget-password a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,116 @@
+/* base styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FF0000;
+}
+
+.off-screen-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-icon button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ham-menu {
+    display: none;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+}
+
+.product-details {
+    padding: 10px;
+    text-align: center;
+}
+
+.product-details h2 {
+    margin: 0;
+}
+
+.rating {
+    font-size: 14px; /* Ukuran font */
+    color: #FFA500; /* Warna bintang rating */
+    margin: 5px 0; /* Jarak atas dan bawah */
+    
+}
+
+
+.purchase {
+    font-size: 14px;
+}
+
+
+/* CSS untuk panel Nama Produk */
+.product-panel {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+  

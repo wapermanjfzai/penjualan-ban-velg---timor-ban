@@ -1,0 +1,29 @@
+/* Group 47 */
+
+position: absolute;
+width: 435.36px;
+height: 155.96px;
+left: calc(50% - 435.36px/2 - 0.32px);
+top: 31px;
+
+
+/* Timor Ban */
+
+position: absolute;
+width: 435.36px;
+height: 97.55px;
+left: 502px;
+top: 31px;
+
+font-family: 'Lemonada';
+font-style: normal;
+font-weight: 700;
+font-size: 72.2584px;
+line-height: 144px;
+
+background: linear-gradient(276.27deg, rgba(79, 111, 82, 0.88) 5.4%, rgba(148, 32, 23, 0.88) 16.29%, rgba(175, 0, 0, 0.88) 39.49%, rgba(79, 111, 82, 0.88) 50.6%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
